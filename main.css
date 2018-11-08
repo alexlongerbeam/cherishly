@@ -12,3 +12,92 @@ p {
     font-family: "Oxygen", "Karla", "Lato", "Raleway";
     width: 50%;
 }
+
+.card {
+    
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    width:65%;
+}
+
+.user{
+    font-size: 100px;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+/*
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+*/
+
+.stats{
+    width: 80%;
+    text-align: center;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.groups{
+    width: 80%;
+    text-align: center;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+table th {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+    width: 80%;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+table td {
+    width: 50%;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+    font-size: 30px;
+    text-align: center;
+    padding: 5px
+}
+
+
+.button1{
+    background: #F35F64;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    padding: 14px 40px;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+    border-radius: 25px;
+    color: white;
+}
+
