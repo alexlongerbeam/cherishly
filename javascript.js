@@ -1,15 +1,15 @@
 function initPage(){
 	$(".addButton").click(
-		function(){showElement(".pictureUpload");}, 
+		function(){showElement(".popupWindow");}, 
 	);
 
-	$(".pictureUpload").click(
-		function(){hideElement(".pictureUpload");}
+	$("#uploadButton").click(
+		function(){hideElement(".popupWindow");}
 	);
 }
 
 function showElement(x){
-	$(x).css("opacity", ".8");
+	$(x).css("opacity", ".9");
 	$(x).css("z-index", "+1");
 }
 
