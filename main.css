@@ -1,14 +1,50 @@
-.topbar {
-    background: #F35F64;
-    height: 200px;
-    text-align: center;
-    font-size: 64px;
-    font-family: "Koho", "Pacifico", sans-serif;
-    color: white;
+/* resetting defaults */
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    font-size: 16px;
-    font-family: "Oxygen", "Karla", "Lato", "Raleway";
-    width: 50%;
+h1 {
+    margin: 0;
+    border: 0;
+}
+
+/* topbar */ 
+
+.topbar {
+    position: fixed;
+    top: 0%;
+    background: #F35F64;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.topbar-title {
+    padding: 5% 0% 0% 0%;
+    font-size: 5em;
+    font-family: "Koho", sans-serif;
+}
+
+.profile-icon {
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 5%;
+    width: 10%;
+    height: 50%;
+    font-size: 64px;
+}
+
+.settings-icon {
+    position: absolute;
+    color: white;
+    top: 25%;
+    right: 5%;
+    width: 10%;
+    height: 50%;
+    font-size: 64px;
 }
