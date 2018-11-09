@@ -20,13 +20,15 @@ h1 {
     color: white;
     overflow: hidden;
     display: table;
+    z-index: 1;
 }
 
 .topbar-title {
     font-size: 5em;
     font-family: "Koho", sans-serif;
     display:table-cell; 
-    vertical-align:middle
+    vertical-align:middle;
+    z-index: 1;
 }
 
 .profile-icon {
@@ -37,6 +39,7 @@ h1 {
     width: 10%;
     height: 50%;
     font-size: 64px;
+    z-index: 1;
 }
 
 .settings-icon {
@@ -47,6 +50,7 @@ h1 {
     width: 10%;
     height: 50%;
     font-size: 64px;
+    z-index: 1;
 }
 
 p {

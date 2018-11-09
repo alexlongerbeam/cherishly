@@ -1,0 +1,71 @@
+/* content */ 
+
+p {
+    font-size: 16px;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+    width: 50%;
+}
+
+.picture-1 {
+    position: absolute;
+    top: 13%;
+    left: 5%;
+    width: 90%;
+    height: 40%;
+    background: peachpuff;
+    z-index: 0;
+}
+
+.picture-2 {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    width: 43%;
+    height: 30%;
+    background: peachpuff;
+    z-index: 0;
+}
+
+.picture-3 {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    width: 43%;
+    height: 30%;
+    background: peachpuff;
+    z-index: 0;
+}
+
+.ad-1 {
+    position: absolute;
+    top: 87%;
+    left: 5%;
+    width: 23%;
+    height: 30%;
+    background: lightgrey; 
+    z-index: 0;
+}
+
+.picture-4 {
+    position: absolute;
+    top: 87%;
+    right: 5%;
+    width: 63%;
+    height: 30%;
+    background: peachpuff;
+    z-index: 0;
+}
+
+.picture-5 {
+    position: absolute;
+    top: 119%;
+    left: 5%;
+    width: 90%;
+    height: 40%;
+    background: peachpuff;
+    z-index: 0;
+}
+
+.ad-text {
+    font-size: 10em;
+}
