@@ -70,7 +70,7 @@ h3 {
 	display: table;
 }
 
-.pic_view_comments {
+.pic_groups, .pic_view_comments {
 	background: #96beff;
 	width: 30%;
 	height: 100%;
@@ -92,6 +92,17 @@ h3 {
 	display: table;
 }
 
+.button1{
+    background: #F35F64;
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    padding: 14px 40px;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+    border-radius: 25px;
+    color: white;
+    margin-top: 25px;
+}
 
 
 
