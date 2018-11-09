@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>cherishly</title>
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
     <link href="main.css" rel="stylesheet" />
     <link href="home.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=KoHo|Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -19,11 +21,22 @@
         <h1 class="topbar-title">c h e r i s h l y</h1>
         <button class="settings-icon"><i class="fas fa-cog"></i></button>
     </div>
+    <div class="dropdown" id="mydropdown">
+      <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        All Groups
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Family</a>
+        <a class="dropdown-item" href="#">Roommates 2018</a>
+        <a class="dropdown-item" href="#">Hiking Club</a>
+      </div>
+    </div>
     <div class="picture-1"></div>
     <div class="picture-2"></div>
     <div class="picture-3"></div>
     <div class="ad-1"><p class="ad-text">AD</p></div>
     <div class="picture-4"></div>
     <div class="picture-5"></div>
+    <button class="new-btn">+ New</button>
 </body>
 </html>

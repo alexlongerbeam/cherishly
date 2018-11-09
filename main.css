@@ -1,6 +1,5 @@
 /* resetting defaults */
 
-
 h1 {
     margin: 0;
     border: 0;
@@ -14,8 +13,6 @@ h1 {
     background: #F35F64;
     width: 100vw;
     height: 10vh;
-    height: 10%;
-    width: 100%;
     text-align: center;
     color: white;
     overflow: hidden;
