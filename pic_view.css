@@ -1,30 +1,3 @@
-.topbar {
-    background: #F35F64;
-    height: 10%;
-    width: 100%;
-    text-align: center;
-    font-size: 64px;
-    font-family: "Koho", "Pacifico", sans-serif;
-    color: white;
-}
-
-p {
-    font-size: 16px;
-    font-family: "Oxygen", "Karla", "Lato", "Raleway";
-    width: 50%;
-}
-
-html {
-	height: 100%;
-	width: 100%;
-}
-
-body {
-	background: blue;
-	height: 100%;
-	width: 100%;
-}
-
 h3 {
 	display:table-cell; 
 	vertical-align:middle
