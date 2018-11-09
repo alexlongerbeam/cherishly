@@ -1,9 +1,5 @@
 /* resetting defaults */
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
 h1 {
     margin: 0;
@@ -18,15 +14,19 @@ h1 {
     background: #F35F64;
     width: 100vw;
     height: 10vh;
+    height: 10%;
+    width: 100%;
     text-align: center;
     color: white;
     overflow: hidden;
+    display: table;
 }
 
 .topbar-title {
-    padding: 5% 0% 0% 0%;
     font-size: 5em;
     font-family: "Koho", sans-serif;
+    display:table-cell; 
+    vertical-align:middle
 }
 
 .profile-icon {
@@ -48,3 +48,27 @@ h1 {
     height: 50%;
     font-size: 64px;
 }
+
+p {
+    font-size: 16px;
+    font-family: "Oxygen", "Karla", "Lato", "Raleway";
+    width: 50%;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    display:table-cell; 
+    vertical-align:middle
+}
+
